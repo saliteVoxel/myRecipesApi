@@ -12,7 +12,7 @@ namespace MyRecipesApi.Tests
             //Arrange
             var recipes = new Recipes();
             //Act -> recipes.Add()
-            recipes.Add("Pimientos con patatas");
+            recipes.AddRecipe("Pimientos con patatas");
             //Assert
             Assert.Equal("Pimientos con patatas",recipes.CheckRecipe("Pimientos con patatas"));
         }

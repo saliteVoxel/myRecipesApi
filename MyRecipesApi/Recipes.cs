@@ -4,14 +4,23 @@ namespace MyRecipesApi
 {
     public class Recipes
     {
-        public void Add(string recipe)
+        private List<string> _myRecipes = new();
+
+        public void AddRecipe(string recipe)
         {
-            throw new System.NotImplementedException();
+            //Atributos en minúscula y con barra baja al inicio
+            _myRecipes.Add(recipe);
         }
 
-        public IEnumerable<char> CheckRecipe(string recipe)
+        public string CheckRecipe(string recipe)
         {
-            throw new System.NotImplementedException();
+            foreach(string recipeInList in _myRecipes)
+            {
+                if(recipeInList.Contains(recipe))
+                    return recipeInList;
+            }
+
+            return "";
         }
     }
 }
