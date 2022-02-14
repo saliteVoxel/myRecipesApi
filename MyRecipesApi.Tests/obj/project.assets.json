@@ -1670,6 +1670,19 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "MyRecipesApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MyRecipesApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyRecipesApi.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5844,11 +5857,17 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "MyRecipesApi/1.0.0": {
+      "type": "project",
+      "path": "../MyRecipesApi/MyRecipesApi.csproj",
+      "msbuildProject": "../MyRecipesApi/MyRecipesApi.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.NET.Test.Sdk >= 16.9.4",
+      "MyRecipesApi >= 1.0.0",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -5884,7 +5903,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
+              "projectPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5929,6 +5952,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
