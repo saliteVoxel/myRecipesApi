@@ -14,9 +14,9 @@ namespace MyRecipesApi
 
         public string CheckRecipe(string recipe)
         {
-            foreach(string recipeInList in _myRecipes)
+            foreach (string recipeInList in _myRecipes)
             {
-                if(recipeInList.Contains(recipe))
+                if (recipeInList.Contains(recipe))
                     return recipeInList;
             }
 

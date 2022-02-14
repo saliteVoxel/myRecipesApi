@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "1t07OSydiaKG/hbq019ExXYFF4PZo4+0t01w5eDLHZy2PxVnctgtNa+vp5A9fQPiCn0zlYPxJqyNFQS97p6R+A==",
+  "dgSpecHash": "0V3TXKFNg/f9QO90+c6i67sfXYEUas8CVfhe6hHof18J4ys+/dwhAjG82gYg+WnyEzupU7Uvg69dumvlBP4uOw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
+  "expectedPackageFiles": [
+    "D:\\Users\\salvarez\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "D:\\Users\\salvarez\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "D:\\Users\\salvarez\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "D:\\Users\\salvarez\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "D:\\Users\\salvarez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "D:\\Users\\salvarez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
   "logs": []
 }

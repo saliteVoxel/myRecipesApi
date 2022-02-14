@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj": {}
+    "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj": {
+    "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj",
+        "projectUniqueName": "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj",
         "projectName": "MyRecipesApi.Tests",
-        "projectPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj",
-        "packagesPath": "D:\\Users\\salite\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi.Tests\\obj\\",
+        "projectPath": "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj",
+        "packagesPath": "D:\\Users\\salvarez\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\Users\\salite\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\salvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,14 +25,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
-                "projectPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj"
+              "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
+                "projectPath": "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj"
               }
             }
           }
@@ -90,20 +91,20 @@
         }
       }
     },
-    "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
+    "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
+        "projectUniqueName": "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
         "projectName": "MyRecipesApi",
-        "projectPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
-        "packagesPath": "D:\\Users\\salite\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\obj\\",
+        "projectPath": "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
+        "packagesPath": "D:\\Users\\salvarez\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\Users\\salite\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\salvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,7 +112,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org": {}
         },
         "frameworks": {
           "net5.0": {
@@ -128,6 +130,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
