@@ -1,4 +1,7 @@
 using System;
+using System.Collections.Generic;
+using FluentAssertions;
+using MyRecipesApi.Controllers;
 using Xunit;
 
 namespace MyRecipesApi.Tests
@@ -8,13 +11,15 @@ namespace MyRecipesApi.Tests
         [Fact]
         public void AddRecipe()
         {
-            //Recipes es el nombre de la clase, y recipes es la instancia del objeto
-            //Arrange
-            var recipes = new Recipes();
-            //Act -> recipes.Add()
-            recipes.AddRecipe("Pimientos con patatas");
-            //Assert
-            Assert.Equal("Pimientos con patatas",recipes.CheckRecipe("Pimientos con patatas"));
+            RecipeRepository recipeRepository = new();
+            recipeRepository.AddRecipe(new Recipe("Pimientos con patatas"));
+            RecipesController recipesController = new(recipeRepository);
+            
+            var responseBody = recipesController.ListRecipes();
+
+            List<Recipe> expectedRecipes = new List<Recipe>();
+            expectedRecipes.Add(new Recipe("Pimientos con patatas"));
+            responseBody.Should().BeEquivalentTo(expectedRecipes);
         }
     }
 }

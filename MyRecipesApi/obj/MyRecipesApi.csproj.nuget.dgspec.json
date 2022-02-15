@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {}
+    "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {}
   },
   "projects": {
-    "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
+    "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
+        "projectUniqueName": "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
         "projectName": "MyRecipesApi",
-        "projectPath": "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
-        "packagesPath": "D:\\Users\\salvarez\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\salvarez\\source\\repos\\myRecipesApi\\MyRecipesApi\\obj\\",
+        "projectPath": "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
+        "packagesPath": "D:\\Users\\vkovaleva\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\Users\\salvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\vkovaleva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.org": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
