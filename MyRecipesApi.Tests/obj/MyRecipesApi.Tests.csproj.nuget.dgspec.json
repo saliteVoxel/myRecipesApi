@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj": {}
+    "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj": {
+    "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj",
+        "projectUniqueName": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj",
         "projectName": "MyRecipesApi.Tests",
-        "projectPath": "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj",
-        "packagesPath": "D:\\Users\\vkovaleva\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi.Tests\\obj\\",
+        "projectPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi.Tests\\MyRecipesApi.Tests.csproj",
+        "packagesPath": "D:\\Users\\salite\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\Users\\vkovaleva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\salite\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +31,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
-                "projectPath": "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj"
+              "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
+                "projectPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj"
               }
             }
           }
@@ -94,20 +94,20 @@
         }
       }
     },
-    "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
+    "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
+        "projectUniqueName": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
         "projectName": "MyRecipesApi",
-        "projectPath": "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
-        "packagesPath": "D:\\Users\\vkovaleva\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\vkovaleva\\source\\myRecipesApi\\MyRecipesApi\\obj\\",
+        "projectPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
+        "packagesPath": "D:\\Users\\salite\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\Users\\vkovaleva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\salite\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

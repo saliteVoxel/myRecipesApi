@@ -1,10 +1,14 @@
+using System.Collections.Generic;
+
 namespace MyRecipesApi
 {
     public class RecipeRepository
     {
+        //solo se puede asignar una vez la referencia, no se puede instanciar de nuevo
+        private readonly List<Recipe> _recipes = new (); 
         public void AddRecipe(Recipe recipe)
         {
-            throw new System.NotImplementedException();
+            _recipes.Add(recipe);
         }
     }
 }
