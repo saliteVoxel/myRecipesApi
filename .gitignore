@@ -167,3 +167,5 @@ dist
 
 spec/*.js
 src/*.js
+
+.idea/
