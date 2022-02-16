@@ -15,6 +15,7 @@ namespace MyRecipesApi.Controllers
         }
 
         [HttpGet]
+        [Route("ListRecipe")]
         public List<Recipe> ListRecipes()
         {
             return _recipeRepository.FindAll();
