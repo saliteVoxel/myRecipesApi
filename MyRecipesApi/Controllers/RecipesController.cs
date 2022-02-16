@@ -1,15 +1,19 @@
+using System.Collections.Generic;
+
 namespace MyRecipesApi.Controllers
 {
     public class RecipesController
     {
+        private readonly RecipeRepository _recipeRepository;
+
         public RecipesController(RecipeRepository recipeRepository)
         {
-            throw new System.NotImplementedException();
+            _recipeRepository = recipeRepository;
         }
 
-        public object ListRecipes()
+        public List<Recipe> ListRecipes()
         {
-            throw new System.NotImplementedException();
+            return _recipeRepository.FindAll();
         }
     }
 }

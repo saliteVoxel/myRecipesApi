@@ -51,7 +51,6 @@ D:\Users\vkovaleva\source\myRecipesApi\MyRecipesApi\obj\Debug\net5.0\staticwebas
 D:\Users\vkovaleva\source\myRecipesApi\MyRecipesApi\obj\Debug\net5.0\staticwebassets\MyRecipesApi.StaticWebAssets.xml
 D:\Users\vkovaleva\source\myRecipesApi\MyRecipesApi\obj\Debug\net5.0\scopedcss\bundle\MyRecipesApi.styles.css
 D:\Users\vkovaleva\source\myRecipesApi\MyRecipesApi\obj\Debug\net5.0\MyRecipesApi.RazorTargetAssemblyInfo.cache
-D:\Users\vkovaleva\source\myRecipesApi\MyRecipesApi\obj\Debug\net5.0\MyRecipesApi.csproj.CopyComplete
 D:\Users\vkovaleva\source\myRecipesApi\MyRecipesApi\obj\Debug\net5.0\MyRecipesApi.dll
 D:\Users\vkovaleva\source\myRecipesApi\MyRecipesApi\obj\Debug\net5.0\ref\MyRecipesApi.dll
 D:\Users\vkovaleva\source\myRecipesApi\MyRecipesApi\obj\Debug\net5.0\MyRecipesApi.pdb
