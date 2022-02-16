@@ -1,8 +1,11 @@
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MyRecipesApi.Controllers
 {
-    public class RecipesController
+    [ApiController]
+    [Route("[controller]")]
+    public class RecipesController : ControllerBase
     {
         private readonly RecipeRepository _recipeRepository;
 
@@ -11,6 +14,7 @@ namespace MyRecipesApi.Controllers
             _recipeRepository = recipeRepository;
         }
 
+        [HttpGet]
         public List<Recipe> ListRecipes()
         {
             return _recipeRepository.FindAll();

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {}
+    "D:\\Users\\mvila\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {}
   },
   "projects": {
-    "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
+    "D:\\Users\\mvila\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
+        "projectUniqueName": "D:\\Users\\mvila\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
         "projectName": "MyRecipesApi",
-        "projectPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
-        "packagesPath": "D:\\Users\\salite\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\salite\\source\\repos\\MyRecipesApi\\MyRecipesApi\\obj\\",
+        "projectPath": "D:\\Users\\mvila\\source\\repos\\myRecipesApi\\MyRecipesApi\\MyRecipesApi.csproj",
+        "packagesPath": "D:\\Users\\mvila\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\mvila\\source\\repos\\myRecipesApi\\MyRecipesApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "D:\\Users\\salite\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\mvila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,6 +58,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -66,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
