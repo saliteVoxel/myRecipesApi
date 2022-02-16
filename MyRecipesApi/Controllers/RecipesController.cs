@@ -7,18 +7,18 @@ namespace MyRecipesApi.Controllers
     [Route("[controller]")]
     public class RecipesController : ControllerBase
     {
-        private readonly RecipeRepository _recipeRepository;
+        private readonly MockRecipeRepository _mockRecipeRepository;
 
-        public RecipesController(RecipeRepository recipeRepository)
+        public RecipesController(MockRecipeRepository mockRecipeRepository)
         {
-            _recipeRepository = recipeRepository;
+            _mockRecipeRepository = mockRecipeRepository;
         }
 
         [HttpGet]
         [Route("ListRecipe")]
         public List<Recipe> ListRecipes()
         {
-            return _recipeRepository.FindAll();
+            return _mockRecipeRepository.FindAll();
         }
     }
 }

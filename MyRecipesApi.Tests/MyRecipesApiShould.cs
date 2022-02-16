@@ -11,9 +11,9 @@ namespace MyRecipesApi.Tests
         [Fact]
         public void AddRecipe()
         {
-            RecipeRepository recipeRepository = new();
-            recipeRepository.AddRecipe(new Recipe("Pimientos con patatas"));
-            RecipesController recipesController = new(recipeRepository);
+            MockRecipeRepository mockRecipeRepository = new();
+            mockRecipeRepository.AddRecipe(new Recipe("Pimientos con patatas"));
+            RecipesController recipesController = new(mockRecipeRepository);
             
             var responseBody = recipesController.ListRecipes();
 
